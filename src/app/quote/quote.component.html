@@ -1,8 +1,8 @@
 <h1 style="color:blueviolet;">ALL TIME GREAT QUOTES</h1>
-<!-- <div class="container"> -->
+
 <div class="row">
   <div class="col md-6" id="form">
-    <app-quote-form  (addQuote)="addNewQuote($event)"></app-quote-form>
+      <app-quote-form [addNewQuote]='addNewQuoteFunc' ></app-quote-form>
   </div>
   <div class="col md-6" id="quote">
     <h2 style="text-decoration:underline;"><b>"Quotes"</b></h2>
@@ -10,10 +10,10 @@
       <h5>{{quote.name}}</h5>
         <button class="btn btn-success"  (click)='toogleDetails(i)'>Quote Details</button>
       <div *ngIf="quote.showDescription">
-        <app-quote-details  [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+          <app-quote-details [quote]='quote' (isRating)='increaseRating($event,i)' (isDelete)='deleteQuote($event,i)'></app-quote-details>
       </div>
     </div>
   </div>
 </div>
-<!-- </div> -->
+
 <h3 style="text-align:center; ">Great all time quotes.</h3>

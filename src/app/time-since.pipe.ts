@@ -3,7 +3,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({
   name: 'time'
 })
-export class TimePipe implements PipeTransform {
+export class TimeSincePipe implements PipeTransform {
 
   transform(value: any): any {
     let days,hours,minutes;
