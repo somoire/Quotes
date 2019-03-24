@@ -1,0 +1,13 @@
+  <h4>Date Posted: {{quote.time|time}}</h4>
+<blockquote >
+  <p>{{quote.entry}}</p>
+  <footer>Author:
+    <cite >{{quote.author}}</cite>
+  </footer>
+</blockquote>
+
+  <i class="btn btn-success" (click)="upVote">{{quote.like}}</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <i class="btn btn-danger" (click)="downVote">{{quote.dislike}}</i>
+
+  <br>
+  <button class="btn btn-danger" (click)= "deleteQuote(true)">Delete Quote</button>
