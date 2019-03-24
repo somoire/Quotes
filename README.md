@@ -1,27 +1,47 @@
-# Quote
+# Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+The webapp contains allows one to post a quote using the form and vote on other posted quotes displayed on the side.
 
-## Code scaffolding
+## Setup/Installation Requirements
+* The github page is currently live thus the following link will take you to the webpage "https://somoire.github.io/Quotes/"
+* As long as you have a compatible browser the document will work.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Known Bugs
+The Panels can't hold a large quote inside it thus will overflow.
+Form can submit empty values and can't be reset.
 
-## Build
+### Behaviour Driven Development
+* The program should return "(Title name) is required" when the user leaves a form value empty.<br> 
+Input Example:" "<br>
+Output Example: "Author is required
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* When the user clicks on the like or dislike buttons the value beside it should increase by 1.<br>
+Input Example:(click "like")<br>
+Output Example: Like = +1<br>
 
-## Running unit tests
+* When the user click on "Add Quote" the values entered in the form should be displayed on the right side.<br>
+Input Example: Title=Me, Author=You, Quote= Us<br>
+Output Example: Me, You, Us
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* When the "Delete" button is clicked the parent quote will be deleted.
 
-## Running end-to-end tests
+### Technologies Used
+* HTML was used in making the skeleton of the website.
+* CSS was used in styling the document.
+* Atom was the source code editor of choice.
+* Git and Github were used as my local and online repositories respectively.
+* AngularCLI was used in creating the components/classes/directives/pipes needed in the web-app
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+### Support and contact details
+* Contact me via my email: rayr30667@gmail.com
+* The source code is also contained within the folder containing this ReadMe with comments on the code thus third-party support can be offered.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+Moringa School
+Copyright (c)2019 **Quotes by Rodney Somoire**
+  
