@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 The webapp contains allows one to post a quote using the form and vote on other posted quotes displayed on the side.
 
 ## Setup/Installation Requirements
-* The github page is currently live thus the following link will take you to the webpage "https://somoire.github.io/Quotes/"
+* The github page is currently live thus the following link will take you to the webpage "https://somoire.github.io/quotes/"
 * As long as you have a compatible browser the document will work.
 
 ### Known Bugs
