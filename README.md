@@ -9,9 +9,9 @@ The webapp contains allows one to post a quote using the form and vote on other 
 ## Setup/Installation Requirements
 * The github page is currently live thus the following link will take you to the webpage "https://rsquotes.netlify.com/"
 * As long as you have a compatible browser the document will work.
+*
 
-### Known Bugs
-The Panels can't hold a large quote inside it thus will overflow.
+### Bugs
 Form can submit empty values and can't be reset.
 
 ### Behaviour Driven Development
@@ -31,11 +31,14 @@ Output Example: Me, You, Us
 
 * The title form is more dependent on the category of the quote. Whether love, life or any other categorical quote depending on what the submitter really wants to input.
 
+
+
 ### Technologies Used
 * HTML was used in making the skeleton of the website.
 * CSS was used in styling the document.
-* Atom was the source code editor of choice.
+* Visual studio was the source code editor of choice.
 * Git and Github were used as my local and online repositories respectively.
+* Netlify was majorly used for deployment purposes.
 * AngularCLI was used in creating the components/classes/directives/pipes needed in the web-app
 
 
