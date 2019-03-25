@@ -10,7 +10,8 @@ export class QuoteComponent implements OnInit {
     private duration: number;
     private id:number = 0;
     quotes = [
-    ]
+      
+        ]
     toggleDetails(index){
       this.quotes[index].showDescription = !this.quotes[index].showDescription;
     }
