@@ -28,6 +28,7 @@ Input Example: Title=Me, Author=You, Quote= Us<br>
 Output Example: Me, You, Us
 
 * When the "Delete" button is clicked the parent quote will be deleted.
+* The title form is more dependent on the category of the quote.
 
 ### Technologies Used
 * HTML was used in making the skeleton of the website.
