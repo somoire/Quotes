@@ -9,7 +9,9 @@ The webapp contains allows one to post a quote using the form and vote on other 
 ## Setup/Installation Requirements
 * The github page is currently live thus the following link will take you to the webpage "https://rsquotes.netlify.com/"
 * As long as you have a compatible browser the document will work.
-*
+* Or else one can simply fork the repo ang for as long as one has a working code editor, eithe Visual Basic or atom, one can view the code.
+Fork the repo into a well organized folder structure and open the folder on your terminal.
+Once open in the terminal, one can input the following command: [ $ ng serve --open ]. This will then refer you to your browser from where you can see the web app and input your own quotes.
 
 ### Bugs
 Form can submit empty values and can't be reset.
