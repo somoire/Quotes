@@ -1,4 +1,4 @@
-<h1 style="color:blueviolet;">ALL TIME GREAT QUOTES</h1>
+<h1 style="color:rgb(7, 4, 10);">ALL TIME GREAT QUOTES</h1>
 
 <div class="row">
   <div class="col md-6" id="form">
@@ -7,8 +7,11 @@
   <div class="col md-6" id="quote">
     <h2 style="text-decoration:underline;"><b>"Quotes"</b></h2>
     <div class="" *ngFor="let quote of quotes;let i = 'index'">
-      <h5>{{quote.name}}</h5>
-        <button class="btn btn-success"  (click)='toogleDetails(i)'>Quote Details</button>
+      <!-- <p>{{quote.title}}</p> -->
+      <p>{{quote.author}}</p>
+      <!-- <p>{{quote.Quote}}</p> -->
+      <!-- <p>{{quote.submitter}}</p> -->
+        <button class="btn btn-success"  (click)='toggleDetails(i)'>Quote Details</button>
       <div *ngIf="quote.showDescription">
           <app-quote-details [quote]='quote' (isRating)='increaseRating($event,i)' (isDelete)='deleteQuote($event,i)'></app-quote-details>
       </div>

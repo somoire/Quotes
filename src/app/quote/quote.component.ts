@@ -8,9 +8,12 @@ import{Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
     private duration: number;
-    private id:number =0;
+    private id:number = 0;
     quotes = [
     ]
+    toggleDetails(index){
+      this.quotes[index].showDescription = !this.quotes[index].showDescription;
+    }
     increaseRating(isRating,index){
       if(isRating){
         this.quotes[index].like +=1;
@@ -40,6 +43,7 @@ export class QuoteComponent implements OnInit {
       this.quotes.push(quote);
   
     }
+
     getHighest(){
       let highest = 0;
       let highestQuote: Quote;
