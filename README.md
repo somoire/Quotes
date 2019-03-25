@@ -16,6 +16,7 @@ Once open in the terminal, one can input the following command: [ $ ng serve --o
 ### Bugs
 The form can submit empty values and can't be reset.
 These are the only bugs noted at the moment. If at all any bugs are noticed, kindly feel free to contact me via the provided e-mail address.
+Or one can try and fix the code and tell me of it. All via my e-mail.
 
 ### Behaviour Driven Development
 * The program should return "Input Title" when the user leaves a form value empty.<br> 
