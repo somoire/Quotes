@@ -20,7 +20,7 @@ Input Example:" "<br>
 Output Example: "Author is required
 
 * When the user places the cursor on either the 0 values in the details, on clicking on either of the two, the value should increase by 1.<br>
-Input Example:(click "like")<br>
+Input Example:(click "0")<br>
 Output Example: Like = +1<br>
 
 * When the user click on "Add Quote" the values entered in the form should be displayed on the right side.<br>
@@ -28,7 +28,8 @@ Input Example: Title=Me, Author=You, Quote= Us<br>
 Output Example: Me, You, Us
 
 * When the "Delete" button is clicked the parent quote will be deleted.
-* The title form is more dependent on the category of the quote. Whether love, life or any other quote depending on what the submitter really wants to input.
+
+* The title form is more dependent on the category of the quote. Whether love, life or any other categorical quote depending on what the submitter really wants to input.
 
 ### Technologies Used
 * HTML was used in making the skeleton of the website.
