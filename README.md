@@ -14,7 +14,8 @@ Fork the repo into a well organized folder structure and open the folder on your
 Once open in the terminal, one can input the following command: [ $ ng serve --open ]. This will then refer you to your browser from where you can see the web app and input your own quotes.
 
 ### Bugs
-Form can submit empty values and can't be reset.
+The form can submit empty values and can't be reset.
+These are the only bugs noted at the moment. 
 
 ### Behaviour Driven Development
 * The program should return "Input Title" when the user leaves a form value empty.<br> 
