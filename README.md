@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 The webapp contains allows one to post a quote using the form and vote on other posted quotes displayed on the side.
 
 ## Setup/Installation Requirements
-* The github page is currently live thus the following link will take you to the webpage "https://somoire.github.io/quotes/"
+* The github page is currently live thus the following link will take you to the webpage "https://rsquotes.netlify.com/"
 * As long as you have a compatible browser the document will work.
 
 ### Known Bugs
@@ -15,11 +15,11 @@ The Panels can't hold a large quote inside it thus will overflow.
 Form can submit empty values and can't be reset.
 
 ### Behaviour Driven Development
-* The program should return "(Title name) is required" when the user leaves a form value empty.<br> 
+* The program should return "Input Title" when the user leaves a form value empty.<br> 
 Input Example:" "<br>
 Output Example: "Author is required
 
-* When the user clicks on the like or dislike buttons the value beside it should increase by 1.<br>
+* When the user places the cursor on either the 0 values in the details, on clicking on either of the two, the value should increase by 1.<br>
 Input Example:(click "like")<br>
 Output Example: Like = +1<br>
 
